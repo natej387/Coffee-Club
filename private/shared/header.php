@@ -1,12 +1,12 @@
 <?php
-  if(!isset($page_title)) { $page_title = 'Coffe-Club'; }
+  if(!isset($page_title)) { $page_title = 'Coffee-Club'; }
 ?>
 
 <!doctype html>
 
 <html lang="en">
   <head>
-    <title>Coffe-Club - <?php echo h($page_title); ?></title>
+    <title>Coffee-Club - <?php echo h($page_title); ?></title>
     <meta charset="utf-8">
     <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/coffee-club.css'); ?>" />
   </head>
